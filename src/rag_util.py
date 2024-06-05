@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.vectorstores.utils import DistanceStrategy
 from transformers import AutoTokenizer
 
-CACHE_DIR = "/content/drive/MyDrive/LLM_RAG_Bot/models"
+CACHE_DIR = "/content/models"
 
 class Encoder:
     def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L12-v2", device="cpu"):

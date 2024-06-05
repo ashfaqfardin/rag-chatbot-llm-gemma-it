@@ -2,7 +2,7 @@ import os
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
-CACHE_DIR = "/content/drive/MyDrive/LLM_RAG_Bot/models"
+CACHE_DIR = "/content/models"
 
 class ChatModel:
     def __init__(self, model_id: str = "google/gemma-2b-it", device="cuda"):
